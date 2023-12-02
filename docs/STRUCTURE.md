@@ -7,6 +7,7 @@ Created by Yuan-Ming Hsu on 2023/11/26.
 AstroDataLab/
 │
 ├── README.md
+├── GITFLOW.md
 ├── LICENSE
 ├── .gitignore
 ├── requirements.txt
