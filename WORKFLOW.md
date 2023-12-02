@@ -31,11 +31,9 @@ https://gitbook.tw/chapters/gitflow/why-need-git-flow
   - fix it and test it
 - switch to `main`
   - merge `hotfix/<name>` with parameter `--no-ff `
-  - format of commit message: `hotfix: <your description>`
   - push to remote
 - switch to `dev`
   - merge `hotfix/<name>` with parameter `--no-ff `
-  - format of commit message: `hotfix: <your description>`
   - push to remote
 - delete local hotfix branch (optional)
 
@@ -49,22 +47,11 @@ https://gitbook.tw/chapters/gitflow/why-need-git-flow
   - fix it and test it
 - switch to `main`
   - merge `release/<v. to release>` with parameter `--no-ff `
-  - format of commit message: `release: <v. to release>`
   - push to remote
 - switch to `dev`
   - merge `release/<v. to release>` with parameter `--no-ff `
-  - format of commit message: `release: <v. to release>`
   - push to remote
 - delete local release branch (optional)
-
-
-
-- switch to `dev`
-- new a branch `release/<version>`, ex: release/1.2
-- fix small bugs, commit... until stable
-- merge into `main` and `dev`
-- stick a version tag on `main`, ex: v1.2
-- delete `release/<version>`
 
 
 #### Develop a Feature
@@ -76,7 +63,6 @@ https://gitbook.tw/chapters/gitflow/why-need-git-flow
   - fix it and test it
 - switch to `dev`
   - merge `feature/<name>` with parameter `--no-ff `
-  - format of commit message: `feature: <your description>`
   - push to remote
 - delete local feature branch (optional)
 
