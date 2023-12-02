@@ -13,15 +13,6 @@ https://gitbook.tw/chapters/gitflow/why-need-git-flow
 ### Details
 [The concept](https://itknowledgeexchange.techtarget.com/coffee-…k/files/2021/01/gitflow-hotfix-branch-diagram.jpg)
 
-#### want to publish `dev`
-- [img](https://itknowledgeexchange.techtarget.com/coffee-talk/files/2021/01/gitflow-release-branch.jpg)
-- switch to `dev`
-- new a branch `release/<version>`, ex: release/1.2
-- fix small bugs, commit... until stable
-- merge into `main` and `dev`
-- stick a version tag on `main`, ex: v1.2
-- delete `release/<version>`
-
 #### Urgent Bugs Appear on Stable Version
 > `Hotfix`. Individual work at local. 
 
